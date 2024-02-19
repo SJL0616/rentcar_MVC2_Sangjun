@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.listContent {
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.listContent .oneCar {
+	height: auto;
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px 0;
+	padding: 10px;
+}
+
+/*이미지 박스 */
+.oneCar .imgBox {
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+/*설명 박스 */
+.infoBox {
+	padding-left: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+.infoBox input[type=text],
+.infoBox select,
+.infoBox input[type=number],
+.infoBox textarea{
+	width: 100%;
+}
+
+.infoText{
+	margin : 0 auto;
+}
+.carName h3 {
+	font-weight: bold;
+}
+
+/*가격 박스*/
+.priceBox {
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-bottom: 30px;
+	margin-right: 20px;
+}
+
+.priceBox h3 {
+	font-weight: bold;
+}
+
+.priceBox div:nth-child(3) {
+	width: 230px;
+}

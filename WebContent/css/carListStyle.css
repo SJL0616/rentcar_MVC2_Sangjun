@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.listContent {
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.listContent .oneCar {
+	height: 300px;
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+/*이미지 박스 */
+.oneCar .imgBox {
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	display: flex;
+}
+
+.imgBox img {
+	width: 100%;
+}
+/* 카테고리 버튼 박스*/
+.cateBtns {
+	width: 100%;
+	margin-top: 40px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.container{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cateBtns .oneCate {
+	width: 100px;
+	height: 90px;
+}
+.cateBtns .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cateBtns .container img{
+	width: 100%;
+}
+
+.cateBtns .oneCate:nth-child(2) .container{
+	width: 80px;
+	height: 80px;
+}
+
+.cateBtns .oneCate:nth-child(3) .container{
+	width:70px;
+	height: 73px;
+}
+
+.cateBtns .oneCate:nth-child(4) .container{
+	width: 70px;
+	height: 70px;
+}
+
+.oneCate:hover
+{
+	background-color: #CBCBCB;
+}
+
+
+/*설명 박스 */
+.infoBox {
+	padding-left: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 45%;
+}
+
+.carName h3 {
+	font-weight: bold;
+}
+
+/*가격 박스*/
+.priceBox {
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-bottom: 30px;
+	margin-right: 20px;
+}
+
+.priceBox h3 {
+	font-weight: bold;
+}
+
+.priceBox div:nth-child(3) {
+	width: 230px;
+}
